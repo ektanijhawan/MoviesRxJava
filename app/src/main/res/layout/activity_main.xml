@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+        <variable
+            name="movie"
+            type="ekta.com.movies_rxjava.models.Movie" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="190dp"
+            app:imageUrl="@{movie.imageUrl}"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movies-RxJava</string>
+    <string name="mesg_loading">Loading..</string>
+    <string name="mesg_network_not_available">Internet not available.!</string>
+</resources>
